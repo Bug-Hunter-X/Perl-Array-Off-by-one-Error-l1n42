@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Perl when iterating over arrays using C-style indexing. The solution shows how to correctly iterate using Perl's foreach loop or by adjusting the loop's ending condition.
