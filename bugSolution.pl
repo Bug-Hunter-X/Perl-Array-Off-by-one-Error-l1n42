@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); # Using foreach loop foreach my $element (@array) { print "$element\n"; } # Or using C-style indexing with adjusted condition for my $i (0..$#array) { print "$array[$i]\n"; } #Alternative using $#array + 1 for my $i (0..$#array+1) { print "$array[$i-1]\n"; }
